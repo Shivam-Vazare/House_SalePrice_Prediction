@@ -20,6 +20,7 @@ By implementing these improvements, we can enhance the accuracy and predictive p
 1) Check missing values, outliers and categorical values - Not a single value present
 2) Merge old features 'Fullbath' + 'HalfBath' = create new 'TotalBathrooms' feature
 3) 'GarageCars' and 'GarageArea' are perfectly correlated with each other so as per the problem statement we need to focus on areas so I drop 'GarageCars' feature'
-4) Gaussian Distribution and Logarithmic distribution didn't work becasue features are already uniformly distributed
+4) Split 90:10 because small amount of data
+5) Gaussian Distribution and Logarithmic distribution didn't work becasue features are already uniformly distributed
 
 
